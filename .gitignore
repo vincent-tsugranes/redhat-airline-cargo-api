@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+#ignore generated js
+out/src/*
+src/**.js
+*.d.ts
+*.js.map

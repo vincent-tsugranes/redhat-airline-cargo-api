@@ -1,0 +1,88 @@
+{
+    "specialhandlingcodes":[
+        {
+            "code": "ACT",
+            "description": "Active Temperature Controlled System",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "ATT",
+            "description": "Goods Attached to Air Waybill",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "AVI",
+            "description": "Live Animals",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "BIG",
+            "description": "Outsized",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "CAO",
+            "description": "Cargo Aircraft Only",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "CAT",
+            "description": "Cargo Attendant Accompanying Shipment",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "COL",
+            "description": "Cool Goods",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "COM",
+            "description": "Company mail",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "DIP",
+            "description": "Diplomatic mail",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "COL",
+            "description": "Cool",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "EAP",
+            "description": "e-freight Consignment with Accompanying Paper Documents",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "EAT",
+            "description": "Foodstuffs",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "EAW",
+            "description": " e-freight Consignment with No Accompanying Paper Documents",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "ECC",
+            "description": "Consignments established with an electronically concluded cargo contract ECC with no accompanying paper Air Waybill",
+            "image": "",
+            "temperature_sensitive": false
+        }
+    ]
+}

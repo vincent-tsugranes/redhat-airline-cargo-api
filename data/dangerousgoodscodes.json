@@ -1,0 +1,82 @@
+{
+    "dangerousgoodscodes":[
+        {
+            "code": "CAO",
+            "description": "Cargo Aircraft Only",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "DGD",
+            "description": "Shipper's Declaration for Dangerous Goods",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "ELI",
+            "description": "Lithium lon Batteries excepted as per Section ll of Pl 965-967",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "ELM",
+            "description": "Lithium Metal Batteries excepted as per Section ll of Pl 968-967",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "ICE",
+            "description": "Carbon dioxide, solid(Dry ice)",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "MAG",
+            "description": "Magnetized material",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RCL",
+            "description": "Cryogenic liquids (Packing Instruction 202)",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "RCM",
+            "description": "Corrosive",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RCX",
+            "description": "Explosives 1.3C",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RDS",
+            "description": "Biological Substance, Category B (UN 3373)",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "REQ",
+            "description": "Dangerous Goods in Excepted Quantities",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "REX",
+            "description": "To be reserved for normally forbidden explosives - Divisions 1.1, 1.2, 1.3, 1.4F, 1.5 and 1.6",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RFG",
+            "description": "Flammable gas",
+            "image": "",
+            "temperature_sensitive": false
+        }
+    ]
+}
