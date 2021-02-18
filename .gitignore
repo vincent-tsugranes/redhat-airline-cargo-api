@@ -108,3 +108,6 @@ out/src/*
 src/**.js
 *.d.ts
 *.js.map
+
+#ignore nodeshift deployment artifacts
+tmp/*
