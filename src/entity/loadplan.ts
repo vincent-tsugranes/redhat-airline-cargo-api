@@ -14,4 +14,12 @@ export class LoadPlan {
 
   aircraft_layout: AircraftLayout = new AircraftLayout();
   pallets: Array<Pallet> = new Array<Pallet>();
+
+  totalPackages = () => {
+    let totalPackages = 0;
+    this.pallets.forEach((pallet) => {
+      totalPackages = totalPackages + pallet.packages.length;
+    });
+    return totalPackages;
+  };
 }

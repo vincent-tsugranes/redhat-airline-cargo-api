@@ -1,3 +1,4 @@
+import { Package } from './package';
 import { CargoCode } from './cargocode';
 
 export class Pallet {
@@ -6,13 +7,25 @@ export class Pallet {
   position_code: string = '';
   position: string = '';
   destination_airport_iata: string = '';
-
   arrival_airport_iata: string = '';
+
   weight_net: number = 0;
   weight_tare: number = 0;
   weight_total: number = 0;
-  height_code: string = '';
+
+  length: number = 0;
+  width: number = 0;
+  height: number = 0;
+
   note: string = '';
 
-  cargo_codes: Array<CargoCode> = new Array<CargoCode>();
+  packages: Array<Package> = new Array<Package>();
+
+  getCargoCodes = () => {
+    let codes = new Array<CargoCode>();
+    this.packages.forEach((p) => {
+      codes.concat(p.cargo_codes);
+    });
+    return codes;
+  };
 }
