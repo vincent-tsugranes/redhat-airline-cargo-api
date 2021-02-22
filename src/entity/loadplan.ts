@@ -1,4 +1,5 @@
 import { Pallet } from './pallet';
+import { AircraftLayout } from './aircraftlayout';
 
 export class LoadPlan {
   id: number = 0;
@@ -11,5 +12,6 @@ export class LoadPlan {
   weight_under: number = 0;
   weight_units_of_measure: string = 'K';
 
+  aircraft_layout: AircraftLayout = new AircraftLayout();
   pallets: Array<Pallet> = new Array<Pallet>();
 }
