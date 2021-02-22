@@ -1,0 +1,349 @@
+[
+    {
+        "id": 747400,
+        "aircraft_model": "747-400",
+        "zones": [
+            {
+                "id": 1,
+                "name": "Main Deck",
+                "code": "MD",
+                "description": "",
+                "rows": 17,
+                "columns": 2,
+                "positions": [
+                    {
+                        "id": 1,
+                        "code": "A1",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 2
+                    },
+                    {
+                        "id": 2,
+                        "code": "A2",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 2
+                    },
+                    {
+                        "id": 3,
+                        "code": "B1",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 2
+                    },
+                    {
+                        "id": 4,
+                        "code": "CL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 5,
+                        "code": "CR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 6,
+                        "code": "DL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 7,
+                        "code": "DR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 8,
+                        "code": "EL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 9,
+                        "code": "ER",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 10,
+                        "code": "FL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 11,
+                        "code": "FR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 12,
+                        "code": "GL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 13,
+                        "code": "GR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 14,
+                        "code": "HL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 15,
+                        "code": "HR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 16,
+                        "code": "JL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 17,
+                        "code": "JR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 18,
+                        "code": "KL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 19,
+                        "code": "KR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 20,
+                        "code": "LL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 21,
+                        "code": "LR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 22,
+                        "code": "ML",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 23,
+                        "code": "MR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 24,
+                        "code": "PL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 25,
+                        "code": "PR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 26,
+                        "code": "RL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 27,
+                        "code": "PR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 28,
+                        "code": "SL",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 29,
+                        "code": "SR",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 30,
+                        "code": "T",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Lower Forward",
+                "code": "LF",
+                "description": "",
+                "rows": 5,
+                "columns": 1,
+                "positions": [
+                    {
+                        "id": 1,
+                        "code": "11P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 2,
+                        "code": "12P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 3,
+                        "code": "21P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 4,
+                        "code": "22P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 5,
+                        "code": "23P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Lower Rear",
+                "code": "LR",
+                "description": "",
+                "rows": 4,
+                "columns": 1,
+                "positions": [
+                    {
+                        "id": 1,
+                        "code": "31P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 2,
+                        "code": "32P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 3,
+                        "code": "41P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 4,
+                        "code": "42P",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Lower Tail",
+                "code": "LT",
+                "description": "",
+                "rows": 4,
+                "columns": 1,
+                "positions": [
+                    {
+                        "id": 1,
+                        "code": "51",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 2,
+                        "code": "52",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 3,
+                        "code": "53",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    },
+                    {
+                        "id": 4,
+                        "code": "54",
+                        "width": 0,
+                        "height": 0,
+                        "columns": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
