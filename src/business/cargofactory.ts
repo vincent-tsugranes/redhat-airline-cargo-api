@@ -21,9 +21,20 @@ export class CargoFactory {
     loadPlan.departure_airport_iata = departureAirport;
     loadPlan.arrival_airport_iata = arrivalAirport;
 
-    const randomLayout =
-      aircraftLayouts[Math.floor(Math.random() * aircraftLayouts.length)];
-    randomLayout.aircraft_model = aircraftModel;
+    let aircraftLayout = aircraftLayouts.find(
+      (layout) => layout.aircraft_model == aircraftModel
+    );
+
+    if (aircraftLayout === undefined) {
+      aircraftLayout =
+        aircraftLayouts[Math.floor(Math.random() * aircraftLayouts.length)];
+      console.log(
+        'Do not have a defined aircraft layout for: ' +
+          aircraftModel +
+          ' randomly selecting ' +
+          aircraftLayout.aircraft_model
+      );
+    }
 
     let zoneCount = 0;
     let positionCount = 0;
@@ -32,7 +43,7 @@ export class CargoFactory {
     let maxWidth = 0;
     let maxHeight = 0;
 
-    randomLayout.zones.forEach((zone) => {
+    aircraftLayout.zones.forEach((zone) => {
       zoneCount += 1;
 
       zone.positions.forEach((position) => {
@@ -71,7 +82,7 @@ export class CargoFactory {
       });
     });
 
-    loadPlan.aircraft_layout = randomLayout;
+    loadPlan.aircraft_layout = aircraftLayout;
     loadPlan.weight_net = loadPlan.totalPackageWeight();
 
     console.log(

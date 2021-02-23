@@ -388,5 +388,87 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 320500,
+        "aircraft_model": "A320-500",
+        "zones": [
+            {
+                "id": 1,
+                "name": "Forward Cargo Hold",
+                "code": "FC",
+                "description": "",
+                "rows": 3,
+                "columns": 1,
+                "positions": [
+                    {
+                        "id": 1,
+                        "code": "11",
+                        "length": 60,
+                        "width": 62,
+                        "height": 60,
+                        "columns": 1
+                    },
+                    {
+                        "id": 2,
+                        "code": "12",
+                        "length": 60,
+                        "width": 62,
+                        "height": 60,
+                        "columns": 1
+                    },
+                    {
+                        "id": 3,
+                        "code": "13",
+                        "length": 60,
+                        "width": 62,
+                        "height": 60,
+                        "columns": 1
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Aft Cargo Hold",
+                "code": "AC",
+                "description": "",
+                "rows": 4,
+                "columns": 1,
+                "positions": [
+                    {
+                        "id": 1,
+                        "code": "21",
+                        "length": 60,
+                        "width": 62,
+                        "height": 60,
+                        "columns": 1
+                    },
+                    {
+                        "id": 2,
+                        "code": "22",
+                        "length": 60,
+                        "width": 62,
+                        "height": 60,
+                        "columns": 1
+                    },
+                    {
+                        "id": 3,
+                        "code": "41",
+                        "length": 60,
+                        "width": 62,
+                        "height": 60,
+                        "columns": 1
+                    },
+                    {
+                        "id": 3,
+                        "code": "42",
+                        "length": 60,
+                        "width": 62,
+                        "height": 60,
+                        "columns": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
