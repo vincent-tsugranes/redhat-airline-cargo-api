@@ -22,4 +22,14 @@ export class LoadPlan {
     });
     return totalPackages;
   };
+
+  totalPackageWeight = () => {
+    let totalPackageWeight = 0;
+    this.pallets.forEach((pallet) => {
+      pallet.packages.forEach((packageObject) => {
+        totalPackageWeight = totalPackageWeight + packageObject.weight_total;
+      });
+    });
+    return totalPackageWeight;
+  };
 }

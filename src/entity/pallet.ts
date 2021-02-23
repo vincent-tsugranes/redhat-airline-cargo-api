@@ -7,7 +7,7 @@ export class Pallet {
   position_code: string = '';
   position: string = '';
   destination_airport_iata: string = '';
-  arrival_airport_iata: string = '';
+  origin_airport_iata: string = '';
 
   weight_net: number = 0;
   weight_tare: number = 0;
@@ -27,5 +27,13 @@ export class Pallet {
       codes.concat(p.cargo_codes);
     });
     return codes;
+  };
+
+  totalPackageWeight = () => {
+    let totalPackageWeight = 0;
+    this.packages.forEach((packageObject) => {
+      totalPackageWeight = totalPackageWeight + packageObject.weight_total;
+    });
+    return totalPackageWeight;
   };
 }

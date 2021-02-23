@@ -27,8 +27,33 @@ class CargoController {
   };
 
   getCargo = (request: express.Request, response: express.Response) => {
-    // const flightId = request.params.flightId;
-    const cargo = new CargoFactory().getRandomCargo();
+    let aircraftRegistration = '';
+    let aircraftModel = '';
+    let departureAirport = '';
+    let arrivalAirport = '';
+
+    if (request.query.aircraftRegistration) {
+      aircraftRegistration = request.query.aircraftRegistration.toString();
+    }
+
+    if (request.query.aircraftModel) {
+      aircraftModel = request.query.aircraftModel.toString();
+    }
+
+    if (request.query.departureAirport) {
+      departureAirport = request.query.departureAirport.toString();
+    }
+
+    if (request.query.arrivalAirport) {
+      arrivalAirport = request.query.arrivalAirport.toString();
+    }
+
+    const cargo = CargoFactory.getRandomCargo(
+      aircraftRegistration,
+      aircraftModel,
+      departureAirport,
+      arrivalAirport
+    );
 
     response.send(cargo);
   };
