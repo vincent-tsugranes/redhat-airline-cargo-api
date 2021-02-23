@@ -26,7 +26,7 @@
         },
         {
             "code": "ICE",
-            "description": "Carbon dioxide, solid(Dry ice)",
+            "description": "Carbon dioxide, solid (Dry ice)",
             "image": "",
             "temperature_sensitive": true
         },
@@ -75,6 +75,150 @@
         {
             "code": "RFG",
             "description": "Flammable gas",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RFL",
+            "description": "Flammable liquid",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RFS",
+            "description": "Flammable solid",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RFW",
+            "description": "Dangerous when wet",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RGX",
+            "description": "Explosives 1.3G",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RIS",
+            "description": "(UN 2814 or UN 2900)",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RLI",
+            "description": "Fully regulated lithium Ion batteries (Class 9)as per Section IA and IB of Pl 965 and Section of Pl 966-967",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RLM",
+            "description": " Fully regulated lithium metal batteries (Class 9) as per Section IA and IB of Pl 968 and Section of Pl 969-970",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RMD",
+            "description": "Miscellaneous dangerous goods",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RNG",
+            "description": "Non-flammable non-toxic gas",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "ROP",
+            "description": "Organic peroxide",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "ROX",
+            "description": "Oxidizer",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RPB",
+            "description": "Toxic substance",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RPG",
+            "description": "Toxic gas",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RRE",
+            "description": "Excepted Packages of Radioactive Material",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RRW",
+            "description": "Radioactive material, Category l-white",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RRY",
+            "description": "Radioactive material, Categories ll and lll Yellow",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RSB",
+            "description": "Polymeric Beads/Plastics Moulding Compound (Packing Instruction 957)",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RSC",
+            "description": "Spontaneously combustible",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "RXB",
+            "description": "Explosives 1.4B",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RXC",
+            "description": "Explosives 1.4C",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RXD",
+            "description": "Explosives 1.4D",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RXE",
+            "description": "Explosives 1.4E",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RXG",
+            "description": "Explosives 1.4G",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RXS",
+            "description": "Explosives 1.4S",
             "image": "",
             "temperature_sensitive": false
         }

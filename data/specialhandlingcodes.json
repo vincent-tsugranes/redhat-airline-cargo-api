@@ -55,12 +55,6 @@
             "temperature_sensitive": false
         },
         {
-            "code": "COL",
-            "description": "Cool",
-            "image": "",
-            "temperature_sensitive": false
-        },
-        {
             "code": "EAP",
             "description": "e-freight Consignment with Accompanying Paper Documents",
             "image": "",
@@ -70,7 +64,7 @@
             "code": "EAT",
             "description": "Foodstuffs",
             "image": "",
-            "temperature_sensitive": false
+            "temperature_sensitive": true
         },
         {
             "code": "EAW",
@@ -81,6 +75,240 @@
         {
             "code": "ECC",
             "description": "Consignments established with an electronically concluded cargo contract ECC with no accompanying paper Air Waybill",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "ECP",
+            "description": "Consignment established with a paper Air Waybill contract being printed under an e-AWB agreement",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "FIL",
+            "description": "Undeveloped/Unexposed film",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "FRI",
+            "description": "Frozen goods subject to veterinary/phytosanitary inspections",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "FRO",
+            "description": "Frozen goods",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "GOH",
+            "description": "Hanging Garments",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "HEA",
+            "description": " Heavy cargo, 150kg and over per piece",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "HEG",
+            "description": "Hatching eggs",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "HUM",
+            "description": "Human remains in coffins",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "LHO",
+            "description": "Living human organs/blood",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "LIC",
+            "description": " License required",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "MAL",
+            "description": "Mail",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "MUW",
+            "description": " Munitions of war",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "NSC",
+            "description": "Cargo has not been secured yet for Passenger of All-Cargo Aircraft",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "NMP",
+            "description": "Newspapers, magazines",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "OBX",
+            "description": "Obnoxious cargo",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "OGH",
+            "description": "Overhang item",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "PAC",
+            "description": "Passenger and cargo",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "PEA",
+            "description": "Hunting trophies, skin, hide, and all articles made from or containing parts of species listed in the CITIES(Convention on International Trade in Endangered Species) appendices",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "PEF",
+            "description": "Flowers",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "PEM",
+            "description": "Meat",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "PEP",
+            "description": "Fruits and Vegetables",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "PER",
+            "description": "Perishable cargo",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "PES",
+            "description": "Fish/Seafood",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "PIL",
+            "description": "Pharmaceuticals",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "QRT",
+            "description": "Quick Ramp Transfer",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "RAC",
+            "description": "Reserved Air Cargo",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "SCO",
+            "description": "Cargo Secure for All-Cargo Aircraft only",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "SHL",
+            "description": "Save Human Life",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "SHR",
+            "description": "Secure for Passenger, All-Cargo and All-mail Aircraft in Accordance with High Risk Requirements",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "SPF",
+            "description": "Laboratory Animals",
+            "image": "",
+            "temperature_sensitive": true
+        },
+        {
+            "code": "SPX",
+            "description": "Cargo Secure for Passenger and All-Cargo Aircraft",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "SUR",
+            "description": "Surface Transportation",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "SWP",
+            "description": "Sporting Weapons",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "VAL",
+            "description": "Valuable cargo",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "VIC",
+            "description": "Very Important Cargo",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "VOL",
+            "description": "Volume",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "VUN",
+            "description": "Vulnerable Cargo",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "WET",
+            "description": "Shipments of wet material not packed in watertight containers",
+            "image": "",
+            "temperature_sensitive": false
+        },
+        {
+            "code": "XPS",
+            "description": "Priority small package",
             "image": "",
             "temperature_sensitive": false
         }
