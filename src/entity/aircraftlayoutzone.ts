@@ -3,7 +3,6 @@ export class AircraftLayoutZone {
   id: number = 0;
   name: string = '';
   code: string = '';
-  description: string = '';
   positions: Array<AircraftLayoutZonePosition> = new Array<
     AircraftLayoutZonePosition
   >();

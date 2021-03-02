@@ -18,6 +18,7 @@ class CargoController {
   public intializeRoutes() {
     this.router.get(this.path + '/layouts', this.getLayouts);
     this.router.get(this.path + '/random', this.getCargo);
+    this.router.get(this.path + '/planning', this.getCargo);
   }
 
   getLayouts = (request: express.Request, response: express.Response) => {

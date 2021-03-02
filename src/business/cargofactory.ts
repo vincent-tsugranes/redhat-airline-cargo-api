@@ -21,20 +21,7 @@ export class CargoFactory {
     loadPlan.departure_airport_iata = departureAirport;
     loadPlan.arrival_airport_iata = arrivalAirport;
 
-    let aircraftLayout = aircraftLayouts.find(
-      (layout) => layout.aircraft_model == aircraftModel
-    );
-
-    if (aircraftLayout === undefined) {
-      aircraftLayout =
-        aircraftLayouts[Math.floor(Math.random() * aircraftLayouts.length)];
-      console.log(
-        'Do not have a defined aircraft layout for: ' +
-          aircraftModel +
-          ' randomly selecting ' +
-          aircraftLayout.aircraft_model
-      );
-    }
+    let aircraftLayout = GetAircraftLayoutOrRandom(aircraftModel);
 
     let zoneCount = 0;
     let positionCount = 0;
@@ -97,6 +84,62 @@ export class CargoFactory {
 
     return loadPlan;
   };
+
+  public static generateOptimizedCargo = (
+    aircraftRegistration: string,
+    aircraftModel: string,
+    departureAirport: string,
+    arrivalAirport: string
+  ) => {
+    const loadPlan = new LoadPlan();
+    loadPlan.aircraft_registration = aircraftRegistration;
+    loadPlan.departure_airport_iata = departureAirport;
+    loadPlan.arrival_airport_iata = arrivalAirport;
+
+    const aircraftLayout = GetAircraftLayoutOrRandom(aircraftModel);
+    const packages = GeneratePackages(
+      100000, //max package count
+      30000000, //max total volume
+      pallet.length,
+      pallet.width,
+      pallet.height,
+      departureAirport,
+      arrivalAirport
+    );
+  };
+}
+
+function GetAircraftLayoutOrRandom(aircraftModel: string) {
+  let aircraftLayout = aircraftLayouts.find(
+    (layout) => layout.aircraft_model == aircraftModel
+  );
+  if (aircraftLayout === undefined) {
+    aircraftLayout =
+      aircraftLayouts[Math.floor(Math.random() * aircraftLayouts.length)];
+    console.log(
+      'Do not have a defined aircraft layout for: ' +
+        aircraftModel +
+        ' randomly selecting ' +
+        aircraftLayout.aircraft_model
+    );
+  }
+  return aircraftLayout;
+}
+
+async function GetOptimzedCargo(aircraftModel: string) {
+  const aircraftLayout = GetAircraftLayoutOrRandom(aircraftModel);
+
+  const cargoApiUrl = 'http://localhost:9006';
+  const cargoUrl =
+    cargoApiUrl +
+    '/' +
+    '?aircraftLayout=' +
+    aircraftLayout +
+    '&packages=' +
+    aircraftModel;
+  console.log('Getting Cargo from ' + cargoUrl);
+  const cargoResponse = await fetch(cargoUrl);
+  const jsonCargoLayout = JSON.parse(await cargoResponse.text());
 }
 
 function GeneratePackages(
