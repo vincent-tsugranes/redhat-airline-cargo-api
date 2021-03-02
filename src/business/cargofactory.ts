@@ -89,7 +89,8 @@ export class CargoFactory {
     aircraftRegistration: string,
     aircraftModel: string,
     departureAirport: string,
-    arrivalAirport: string
+    arrivalAirport: string,
+    pallet: Pallet
   ) => {
     const loadPlan = new LoadPlan();
     loadPlan.aircraft_registration = aircraftRegistration;
@@ -138,8 +139,10 @@ async function GetOptimzedCargo(aircraftModel: string) {
     '&packages=' +
     aircraftModel;
   console.log('Getting Cargo from ' + cargoUrl);
-  const cargoResponse = await fetch(cargoUrl);
-  const jsonCargoLayout = JSON.parse(await cargoResponse.text());
+
+  // TODO: call optaplanner service
+  // const cargoResponse = await fetch(cargoUrl);
+  // const jsonCargoLayout = JSON.parse(await cargoResponse.text());
 }
 
 function GeneratePackages(
