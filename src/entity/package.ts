@@ -34,19 +34,19 @@ export class Package {
 
     // 80% chance of being small
     if (packageRandomSize <= 80) {
-      packageObject.length = faker.random.number({
+      packageObject.length = faker.datatype.number({
         min: 6,
         max: max_package_length / 10,
       });
-      packageObject.width = faker.random.number({
+      packageObject.width = faker.datatype.number({
         min: 6,
         max: max_package_width / 10,
       });
-      packageObject.height = faker.random.number({
+      packageObject.height = faker.datatype.number({
         min: 6,
         max: max_package_height / 10,
       });
-      packageObject.weight_total = faker.random.number({
+      packageObject.weight_total = faker.datatype.number({
         min: 2,
         max: max_package_weight / 10,
       });
@@ -54,19 +54,19 @@ export class Package {
 
     // 15% chance of being medium
     if (packageRandomSize > 80 && packageRandomSize <= 95) {
-      packageObject.length = faker.random.number({
+      packageObject.length = faker.datatype.number({
         min: 6,
         max: max_package_length / 5,
       });
-      packageObject.width = faker.random.number({
+      packageObject.width = faker.datatype.number({
         min: 6,
         max: max_package_width / 5,
       });
-      packageObject.height = faker.random.number({
+      packageObject.height = faker.datatype.number({
         min: 6,
         max: max_package_height / 5,
       });
-      packageObject.weight_total = faker.random.number({
+      packageObject.weight_total = faker.datatype.number({
         min: 2,
         max: max_package_weight / 5,
       });
@@ -74,19 +74,19 @@ export class Package {
 
     // 5% chance of being large
     if (packageRandomSize > 95) {
-      packageObject.length = faker.random.number({
+      packageObject.length = faker.datatype.number({
         min: 6,
         max: max_package_length / 2,
       });
-      packageObject.width = faker.random.number({
+      packageObject.width = faker.datatype.number({
         min: 6,
         max: max_package_width / 2,
       });
-      packageObject.height = faker.random.number({
+      packageObject.height = faker.datatype.number({
         min: 6,
         max: max_package_height / 2,
       });
-      packageObject.weight_total = faker.random.number({
+      packageObject.weight_total = faker.datatype.number({
         min: 2,
         max: max_package_weight / 2,
       });
