@@ -50,7 +50,7 @@ export class CargoFactory {
         pallet.destination_airport_iata = arrivalAirport;
         pallet.position_code = position.code;
         const totalPalletVolume = pallet.length * pallet.width * pallet.height;
-        const randomPackageCount = faker.random.number({ min: 6, max: 1000 });
+        const randomPackageCount = faker.datatype.number({ min: 6, max: 1000 });
         pallet.packages = GeneratePackages(
           randomPackageCount,
           totalPalletVolume,
